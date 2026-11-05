@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="Xem phim trực tuyến.">
+  <title>Movie – Xem phim</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Trang chủ"><span class="brand-mark">M</span><span>MOVIE<span class="brand-accent">TV</span></span></a>
+    <nav class="main-nav"><a class="active" href="/">Trang chủ</a><a href="/watch">Xem phim</a></nav>
+    <a class="header-admin" href="/admin">Quản trị</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-backdrop-wrap">
+        <img id="backdrop" class="hero-backdrop" alt="" hidden>
+        <div class="hero-shade"></div>
+      </div>
+      <div class="hero-content page-width">
+        <div class="poster-wrap">
+          <img id="poster" class="poster" alt="Poster phim" hidden>
+          <div id="poster-placeholder" class="poster-placeholder"><span>POSTER</span></div>
+        </div>
+        <div class="movie-summary">
+          <div class="eyebrow">PHIM ĐẶC SẮC</div>
+          <h1 id="movie-title">Tên phim của bạn</h1>
+          <p id="original-title" class="original-title"></p>
+          <div class="meta-row">
+            <span id="year"></span><span id="genre"></span><span>FULL HD</span>
+          </div>
+          <p id="description" class="description">Nội dung giới thiệu phim sẽ hiển thị tại đây.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" id="watch-button" href="/watch"><span class="play-triangle">▶</span> XEM PHIM</a>
+            <a class="button button-ghost" href="#movie-info">CHI TIẾT</a>
+          </div>
+          <p id="video-status" class="video-status"></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="movie-info" class="info-section page-width">
+      <div class="section-heading"><span class="heading-line"></span><h2>GIỚI THIỆU PHIM</h2></div>
+      <div class="info-card">
+        <p id="full-description">Thông tin phim sẽ được cập nhật tại đây.</p>
+        <div class="info-grid">
+          <div><span>Đạo diễn</span><strong id="director">Đang cập nhật</strong></div>
+          <div><span>Diễn viên</span><strong id="actors">Đang cập nhật</strong></div>
+          <div><span>Thể loại</span><strong id="genre-detail">Đang cập nhật</strong></div>
+          <div><span>Năm phát hành</span><strong id="year-detail">Đang cập nhật</strong></div>
+        </div>
+        <a class="button button-primary" href="/watch">▶ &nbsp; XEM PHIM NGAY</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>© <span id="footer-year"></span> Movie Website</span><span>Website xem phim cá nhân</span></footer>
+</body>
+</html>

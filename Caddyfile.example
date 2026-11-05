@@ -1,0 +1,6 @@
+# Thay movie.example.com bằng tên miền của bạn.
+# DNS A/AAAA của tên miền phải trỏ về IP public của máy chạy website.
+# Router cần chuyển tiếp TCP 80 và 443 về máy tính này.
+movie.example.com {
+    reverse_proxy 127.0.0.1:3000
+}

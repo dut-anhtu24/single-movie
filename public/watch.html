@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <title>Đang xem phim</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/watch.css">
+  <script src="/js/player.js" defer></script>
+</head>
+<body class="watch-page">
+  <header class="site-header">
+    <a class="brand" href="/"><span class="brand-mark">M</span><span>MOVIE<span class="brand-accent">TV</span></span></a>
+    <nav class="main-nav"><a href="/">Trang chủ</a><a class="active" href="/watch">Xem phim</a></nav>
+    <a class="header-back" href="/">← Quay lại</a>
+  </header>
+
+  <main class="watch-main page-width">
+    <div class="watch-topline"><div><span class="eyebrow">ĐANG PHÁT</span><h1 id="watch-title">Tên phim của bạn</h1></div><a href="/" class="text-link">← Chi tiết phim</a></div>
+    <section class="player-shell">
+      <video id="movie-player" controls playsinline preload="metadata">
+        Trình duyệt của bạn không hỗ trợ phát video HTML5.
+      </video>
+      <div id="player-empty" class="player-empty" hidden>
+        <div class="empty-icon">▶</div><h2>Video chưa được tải lên</h2><p>Chủ sở hữu cần đăng nhập trang quản trị để tải video lên.</p><a class="button button-primary" href="/">Quay lại trang phim</a>
+      </div>
+    </section>
+    <div class="player-note"><span id="video-filename">Video trực tuyến</span><span id="resume-note"></span></div>
+    <section class="watch-description"><h2>GIỚI THIỆU</h2><p id="watch-description">Nội dung phim.</p></section>
+  </main>
+  <footer class="site-footer"><span>© <span id="footer-year"></span> Movie Website</span><a href="/">Trang chi tiết phim</a></footer>
+</body>
+</html>
