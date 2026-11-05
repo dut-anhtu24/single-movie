@@ -10,8 +10,16 @@
       "destination": "/watch.html"
     },
     {
+      "source": "/api/movie",
+      "destination": "/movie.json"
+    },
+    {
+      "source": "/api/video",
+      "destination": "/video.mp4"
+    },
+    {
       "source": "/admin",
-      "destination": "/admin.html"
+      "destination": "/index.html"
     }
   ]
 }
