@@ -1,15 +1,14 @@
 {
-  "title": "Phim của Vũ",
-  "originalTitle": "Phim của Vũ",
+  "title": "Hành Trang Quý Giá",
+  "originalTitle": "Đạo diễn và biên kịch: Nguyễn Văn Tạ Vũ",
   "releaseYear": 2026,
-  "genre": "Phim ngắn",
-  "director": "Vũ",
-  "actors": "Vũ",
-  "description": "Video phát trực tuyến chất lượng cao.",
-  "posterUrl": "",
-  "backdropUrl": "",
+  "genre": "Tâm lý, Gia đình, Đời sống",
+  "director": "Nguyễn Văn Tạ Vũ",
+  "actors": "Tạ Vũ, Gemini Characters",
+  "description": "PHIM NGẮN: HÀNH TRANG\nThể loại: Tâm lý, Gia đình, Đời sống\nThời lượng dự kiến: 3 – 4 phút\nĐịnh dạng: Full HD 1080p | 16:9 | 24 FPS\nThông điệp cốt lõi: \"Hành trang quý giá nhất không nằm trong chiếc vali... mà nằm trong sự hy sinh thầm lặng của gia đình.\"\n\nTÓM TẮT NỘI DUNG (SYNOPSIS)\nĐứng trước ngưỡng cửa đại học, Minh – chàng thanh niên 18 tuổi – háo hức chuẩn bị rời quê lên thành phố lớn nhập học. Đêm trước ngày lên đường, căn nhà nhỏ rộn ràng bởi sự lo toan tỉ mỉ của mẹ và ánh mắt trầm ngâm, ít nói của người cha bên chiếc vali cũ được dán lại từng góc.\n\nĐặt chân đến thành phố hoa lệ nhưng xa lạ, đối diện với căn phòng trọ chật hẹp và nỗi cô đơn bủa vây giữa ánh đèn phố thị, Minh tình cờ mở lọ ruốc mẹ gói ghém và tìm thấy một chiếc phong bao lì xì cũ. Bên trong là những đồng tiền nhăn nhúm đã được vuốt phẳng phiu cùng mẩu giấy mộc mạc do chính tay cha nắn nót viết: \"Con trai đi học tốt. Đừng lo cho bố mẹ.\"\n\nKhoảnh khắc nghẹn ngào bên khung cửa sổ phòng trọ đã thắp lên niềm tin và ý chí kiên cường trong lòng chàng tân sinh viên. Sau cuộc gọi nghẹn ngào báo bình an về bữa cơm quê vắng bóng con, Minh vững bước tiến vào cổng trường đại học dưới ánh ban mai rực rỡ – mang theo tình yêu thương vô bờ bến làm điểm tựa vững chãi nhất cho cả cuộc đời.\n\nÝ NGHĨA PHIM\nBộ phim khắc họa chân thực sự đối lập giữa hai không gian: miền quê bình dị, ấm áp tình thân và nhịp sống đô thị hối hả, xa lạ. Qua đó, tác phẩm tôn vinh tình mẫu tử dịu dàng, tình phụ tử thầm lặng của những bậc sinh thành và tiếp thêm động lực cho những người con xa xứ trên hành trình trưởng thành.",
+  "posterUrl": "/poster.jpg",
+  "backdropUrl": "/poster.jpg",
   "hasVideo": true,
   "videoUrl": "/video.mp4",
   "videoName": "Phim của vũ.mp4"
 }
-

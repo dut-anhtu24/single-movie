@@ -3,13 +3,15 @@ const setText = (id, value, fallback = 'Đang cập nhật') => { const el = $(i
 
 async function loadMovie() {
   let movie = {
-    title: 'Phim của Vũ',
-    originalTitle: 'Phim của Vũ',
+    title: 'Hành Trang Quý Giá',
+    originalTitle: 'Đạo diễn và biên kịch: Nguyễn Văn Tạ Vũ',
     releaseYear: 2026,
-    genre: 'Phim ngắn',
-    description: 'Video phát trực tuyến chất lượng cao.',
-    director: 'Vũ',
-    actors: 'Vũ',
+    genre: 'Tâm lý, Gia đình, Đời sống',
+    description: 'Hành trang quý giá nhất không nằm trong chiếc vali... mà nằm trong sự hy sinh thầm lặng của gia đình.',
+    director: 'Nguyễn Văn Tạ Vũ',
+    actors: 'Tạ Vũ, Gemini Characters',
+    posterUrl: '/poster.jpg',
+    backdropUrl: '/poster.jpg',
     hasVideo: true,
     videoUrl: '/video.mp4',
     videoName: 'Phim của vũ.mp4'
